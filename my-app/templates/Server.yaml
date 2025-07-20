@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: webapi
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          image: {{ .Values.image.spec }}
           ports:
             - containerPort: 80
           env:
