@@ -1,5 +1,2 @@
-replicaCount: 1
-
 image:
-  repository: mina1402/3s-task
-  tag: "3"  # initial value; will be updated by Image Updater
+  spec: mina1402/3s-task:3
